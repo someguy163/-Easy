@@ -10,6 +10,7 @@ public class SampleController {
 	@GetMapping("/dd")
 	public String ddd() {
 //		d
+//		test
 		return "ddd";
 		
 	}
