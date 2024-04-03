@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SampleController {
 	@GetMapping("/dd")
 	public String ddd() {
-//		d
-//		test
+// test 2024 - 04 - 03
 		return "ddd";
 		
 	}
