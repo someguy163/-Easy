@@ -11,6 +11,10 @@ public class SampleController {
 
 	@GetMapping("/dd")
 	public String dd() {
-		return "/dd";
+		return "/ddd";
+	}
+	@GetMapping("/ss")
+	public String dsd(){
+		return "/sss";
 	}
 }
