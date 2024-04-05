@@ -17,4 +17,9 @@ public class SampleController {
 	public String dsd(){
 		return "/sss";
 	}
+	
+	@GetMapping("/tr_login")
+	public String tr_login() {
+		return "/trainer/tr_login";
+	}
 }
